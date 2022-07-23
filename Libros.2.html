@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Libros.</title>
+</head>
+<body>
+    <header>
+        <img id="logo" src="img/libros.jpg" alt="logo">
+        <h1>Libros.</h1>
+    </header>
+    <nav>
+        <a href="http://127.0.0.1:5500/index.html">Inicio</a>
+        <a href="https://github.com/laureths12">Acerca</a>
+        <a href="#"></a>
+        <a href="#"></a>
+    </nav>
+    <hr>
+    <p><h1>¿Qué es un libro?</h1></p><p><h1>Un libro es toda una vida, creo que es un objeto muy precioso, un mundo mágico, un lugar sin límites dónde todo es posible. Me gusta leer porque me desconecto un rato del mundo real, me llena de paz y tranquilidad también me fortalece emocionalmente.</h1></p>
+    <p><h1>¿Qué sentimientos me da al leer?</h1></p> <p><h1>Depende mucho del tipo de libro que sea, pero siempre me transmiten paz y emoción. Es emocionante esperar que giro dará la historia ¿Será cliché?, ¿Tendrá un final abiereto?, ¿Destruirá mi estabilidad emocional? Es toda una aventura.</h1></p>
+    <p><h1>¿Por qué la lectura es maravillosa?</h1></p>
+    <p><h1>Es maravillosa porque nos desconecta de este mundo, nos lleva a conocer varias vidas, libera nuestras emociones y nos mantiene ocupados, entretenidos y distraídos.</h1></p>
+    <p><h1>"Leer es tener el poder de vivir varias vidas con tan solo abrir un libro."</h1></p>
+    <P><h1>Top 15 recomendaciones de libros:</h1></P>
+    <main>
+        <div id="libros">
+        <div id="left">
+        <div class="display">
+         <img id="lib-img" src="books/boulevard.jpg" alt="Libro">
+        </div>
+        <div id="dpad" onclick="buscar();">
+         <div id="dpad-top"></div>
+         <div id="dpad-horizontal"></div>
+         <div id="dpad-bottom"></div>
+        </div>
+        <div id="btn-circle"></div>
+        </div>
+        <div id="right"></div>
+         <div class="display"> 
+        <ul>
+           <li>
+            <p id="name"><b>Nombre: Boulevard.</b></p>
+           </li>
+           <li>
+            <p id="date"><b>Fecha: 17 de mayo de 2020</b></p>
+           </li> 
+           <li>
+            <p id="author"><b>Autor: Flor M. Salvador</b></p>
+            </li>
+           <li>
+            <p id="des"><b>Descripción: ¿Quién dijo que después de la tormenta sale el sol, cuando puede haber un rayo? Luke Howland, lleno de problemas y sumido en una desesperacion profunda, y Hasley Weigel, tan despitada como optimista, no se ajustan al prototipo de pareja perfecta. Como si cada uno fuese un cielo, uno es tormenta y el otro, un día soleado: él es oscuridad. Ella, un rayo de sol. Y, sin embargo, juntos, decidieron ponerle nombre a lo qeu habían creado: un boulevard teñido de tonos grisáceos y de axules celestes y eléctricos preparándose para la tormenta. Ella era para él y él para ella.</b></p>
+           </li>
+        </ul>
+       </div>
+   </div>
+</main>
+<script type="text/javascript" src="libros_prueba.js"></script>
+<script>
+    buscar();
+</script>
+<P><h1>La literatura es esencialmente soledad. Se escribe en soledad, se lee en soledad y, pese a todo, el acto de la lectura permite una comunicaciónentre dos seres humanos.</h1></P>
+<p><h1>-Paul Auster.</h1></p>
+</body>
+<style>
+body {
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin: 0%;
+    background-color: saddlebrown;
+}
+header {
+    background-color: sandybrown;
+    color: black;
+    padding: 20px;
+}
+header > h1 {
+    display: inline-block;
+    margin-left: 30px;
+ }
+ #logo {
+    width: 150px;
+ }
+ nav {
+    margin: 10px 10%;
+ }
+ nav > a {
+    padding: 0 10px;
+    color: black;
+ }
+ #libros{
+    width: 750px;
+    margin: 50px auto;
+ }
+ .display {
+    border-color:sienna;
+    border-radius: 15px;
+    border-width: 3px; 
+    height: 200px;
+    background-color: sandybrown;
+    display: inline-block;
+    margin-top: 10px;
+ }
+ #left > .display {
+    width: 295px;
+    height: 300px;
+    margin-left: 1px;
+    margin-top: 0.3px;
+    background-color: sandybrown;
+ }
+ #left > .display > img {
+    margin-left: 60px;
+    height: 90%;
+ }
+ #dpad {
+    width: 60px;
+    height: 60px;
+    margin-top: 15px;
+    margin-left: 20px;
+    display: inline-block;
+ }
+ #dpad-top, #dpad-bottom {
+    width: 20px;
+    height: 20px;
+    margin-left: 20px;
+    background-color: sandybrown;
+ }
+ #dpad-horizontal {
+    width: 60px;
+    height: 20px;
+    background-color: sandybrown;
+ }
+ 
+ ul {
+    margin: 0;
+    padding: 0;
+ }
+ li { 
+    list-style-type: none;
+ }
+ li > p {
+    margin: 0 5px;
+ } 
+</style>
+</html>
